@@ -1,13 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-
   "basics": {
     "name": "Fabrizio Dante Pauselli",
     "label": "Software Architect",
     "image": "https://fpaus.github.io/cv/avatar.jpeg",
     "email": "fabriziopauselli@gmail.com",
     "phone": "+5491169759207",
-    "summary": "Architect and Software Developer with 9 years of experience in the field. I have worked in different types of projects, from web applications to mobile applications, always looking for the best solution for the client. I have experience in leading teams and teaching.",
+    "summary": "Architect and Lead Software Developer with 9 years of experience in the field. I have worked in different types of projects, from web applications to mobile applications, always looking for the best solution for the client. I have experience in leading teams and teaching.",
     "location": {
       "countryCode": "AR",
       "city": "San Clemente del Tuyú",
@@ -24,13 +23,14 @@
   "work": [
     {
       "name": "Remitee",
-      "position": "Software Architect",
+      "position": "Lead Architect",
       "startDate": "2023-02",
       "highlights": [
+        "Lead the Architecture and Cloud Infrastructure Department",
         "Driven the migration of the company's core services to the latest versions of the technologies used, increasing the performance of the applications.",
         "Implemented CI/CD in the company's services to improve the deployment process."
       ],
-      "summary": "Research and development in new technologies to improve digital products.\n\nResponsibilities: Introduce and manage R&D initiatives, research and updating of technologies, software development.",
+      "summary": "Research and development in new technologies to improve digital products.\n\nResponsibilities: Lead the Architecture and Cloud Infrastructure Department. Introduce and manage R&D initiatives, research and updating of technologies, software development.",
       "url": "https://www.linkedin.com/company/remitee/",
       "location": "Capital Federal, Buenos Aires, Argentina"
     },
@@ -50,7 +50,9 @@
       "name": "EducacionIT",
       "position": "Teacher",
       "startDate": "2024-06",
-      "highlights": ["Teaching the \"Web API .Net Core\" course"],
+      "highlights": [
+        "Teaching the \"Web API .Net Core\" course"
+      ],
       "summary": "Teach classes in different courses on web development.",
       "url": "https://www.linkedin.com/school/educacionit/",
       "location": "Argentina"
@@ -203,12 +205,24 @@
     {
       "name": "Backend Development",
       "level": "Master",
-      "keywords": ["C#", "Typescript", "Python", "Node.js", "NestJS", ".Net"]
+      "keywords": [
+        "C#",
+        "Typescript",
+        "Python",
+        "Node.js",
+        "NestJS",
+        ".Net"
+      ]
     },
     {
       "name": "Database",
       "level": "Advanced",
-      "keywords": ["SQL", "MySQL", "PostgreSQL", "MongoDB"]
+      "keywords": [
+        "SQL",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ]
     },
     {
       "name": "Soft Skills",
@@ -231,7 +245,6 @@
       ]
     }
   ],
-
   "languages": [
     {
       "language": "Spanish",
@@ -245,11 +258,17 @@
   "interests": [
     {
       "name": "Technology",
-      "keywords": ["Programming", "Open Source", "New Technologies"]
+      "keywords": [
+        "Programming",
+        "Open Source",
+        "New Technologies"
+      ]
     },
     {
       "name": "Gardening",
-      "keywords": ["Vegetable Garden"]
+      "keywords": [
+        "Vegetable Garden"
+      ]
     }
   ],
   "references": [
