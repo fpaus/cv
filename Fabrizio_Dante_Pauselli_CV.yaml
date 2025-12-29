@@ -1,0 +1,162 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Fabrizio Dante Pauselli
+  headline: Software Architect & Lead Developer
+  location: San Clemente del Tuyú, Buenos Aires, AR
+  email: fabriziopauselli@gmail.com
+  phone: "+5491169759207"
+  website: https://fpaus.github.io/cv/
+  social_networks:
+    - network: LinkedIn
+      username: fabrizio-dante-pauselli-917365120
+  
+  sections:
+    summary:
+      - >
+        Software Architect specialized in the design and scalability of distributed systems 
+        and high-availability applications. Expert in .NET and Node.js (NestJS) ecosystems, 
+        with a proven track record leading architecture and cloud infrastructure departments. 
+        Specialist in modernizing legacy systems, implementing microservices-based architectures, 
+        and optimizing processes through CI/CD. Technical mentor and teacher with a passion 
+        for best practices (SOLID, Clean Architecture) and constant innovation.
+    
+    experience:
+      - company: Remitee
+        position: Lead Architect
+        location: Buenos Aires, AR
+        start_date: 2023-02
+        end_date: present
+        summary: >
+          Head of the Architecture and Cloud Infrastructure Department, defining the 
+          technological roadmap to improve product scalability and managing R&D initiatives.
+        highlights:
+          - Led the implementation of Terraform for Infrastructure as Code (IaC) management, overseeing more than 500 resources in Azure.
+          - Led a critical migration of core services to latest technology versions, significantly improving system stability and application performance.
+          - Implemented automated CI/CD pipelines across company services, reducing deployment time and minimizing production errors.
+          - Defined and governed architectural standards, ensuring high availability and security for financial digital products.
+          - Directed R&D initiatives for emerging technologies, maintaining the company's competitive edge in the fintech market.
+      
+      - company: SoulIT
+        position: Technical Leader
+        location: Buenos Aires, AR
+        start_date: 2022-02
+        end_date: 2023-02
+        summary: >
+          Technical manager for developer teams, responsible for technological strategy, 
+          methodology implementation, and support.
+        highlights:
+          - Orchestrated the architectural transition of a core client application from PHP to a modern Node.js (NestJS) and React stack.
+          - Managed the lifecycle and maintenance of enterprise applications using .NET 6 and ReactJs, ensuring 99.9% uptime.
+          - Mentored junior and senior developers, fostering a culture of Clean Code, SOLID principles, and Agile methodologies.
+
+      - company: Freelance
+        position: Software Architect & Developer
+        location: Remote
+        start_date: 2019-01
+        end_date: present
+        summary: Frontend and Backend development, architecture consultancy, and technical documentation.
+        highlights:
+          - Provided architecture consultancy and technical documentation for complex software projects.
+          - Architected and deployed several custom Web APIs from scratch, prioritizing security and modularity.
+          - Successfully migrated a legacy MVC web application from .NET Framework 4 to .NET Core 5, resulting in 30% faster server response times.
+          - Developed complex Web Scraping solutions for government data extraction to support doctoral-level research projects.
+
+      - company: Coderhouse & EducacionIT
+        position: Technical Instructor / Teacher
+        location: Argentina
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Delivered 'Backend Programming in JavaScript' (Node.js) and 'C# Programming' courses at Coderhouse.
+          - Instructed 'Web API .Net Core' at EducacionIT, covering RESTful design, authentication, and database integration.
+          - Served as an Instructor/Mentor in 'Argentina Programa 4.0', teaching Next.js, Django, and SQLite.
+
+      - company: ANSES
+        position: Developer
+        location: Buenos Aires, AR
+        start_date: 2019-07
+        end_date: 2019-09
+        highlights:
+          - Engineered new modules for the internal HR application, optimizing internal data management processes.
+
+      - company: Ministerio de Producción
+        position: Developer
+        location: Buenos Aires, AR
+        start_date: 2018-09
+        end_date: 2019-07
+        highlights:
+          - Collaborated in a large-scale team using Agile workflows to deliver public sector software.
+
+      - company: Ministerio de Trabajo, Empleo y Seguridad Social
+        position: Software Tester Analyst
+        location: Buenos Aires, AR
+        start_date: 2015-05
+        end_date: 2018-09
+        highlights:
+          - Executed comprehensive manual and automated testing suites within the Product Quality area.
+
+    skills:
+      - label: Backend Engineering
+        details: C#, .NET Core/6+, Node.js, NestJS, Python, Django, Web API, CQRS
+      - label: Frontend & Mobile
+        details: ReactJs, Next.js, React Native, TypeScript, Angular, Blazor, HTML5, SASS
+      - label: Architecture & DevOps
+        details: Clean Architecture, SOLID, Terraform, Azure, Cloud Infrastructure, CI/CD, Docker
+      - label: Databases
+        details: SQL Server, PostgreSQL, MySQL, SQLite, MongoDB, Query Optimization
+      - label: Leadership
+        details: Team Mentoring, Project Estimation, Stakeholder Communication, Strategic Planning
+
+    education:
+      - institution: ISTEA
+        area: Higher Technician in Software Development
+        start_date: 2023
+        end_date: present
+        location: Argentina
+
+    certificates:
+      - bullet: "SQL Server Optimization & Performance - EducacionIT (2022)"
+      - bullet: "Advanced Architecture in Node.js - EducacionIT (2021)"
+      - bullet: "Advanced React.JS - EducacionIT (2021)"
+      - bullet: "Leadership & Team Management - EducacionIT (2022)"
+
+    languages:
+      - label: Spanish
+        details: Native
+      - label: English
+        details: Advanced / Professional
+
+    volunteer_experience:
+      - company: Emplear + Empujar
+        position: Technical Mentor
+        start_date: 2021
+        end_date: 2025
+        highlights:
+          - Volunteered as a mentor to help youth in vulnerable situations bridge the gap into the IT job market.
+
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+  typography:
+    font_size:
+      body: 10pt
+      name: 30pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.4em
+    line_spacing: 0.45em
+  section_titles:
+    type: moderncv
+
+settings:
+  render_command:
+    dont_generate_typst: false   
+    dont_generate_png: true
+    pdf_path: build/Fabrizio_Dante_Pauselli.pdf
+    markdown_path: build/README.md
+    html_path: build/index.html

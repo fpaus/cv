@@ -1,22 +1,13 @@
 {
-  "name": "json-cv",
+  "name": "render-cv",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "init": "resumed init",
-    "start": "resumed --theme jsonresume-theme-elegant  -o ./build/index.html ",
-    "deploy": "gh-pages -d build",
-    "validate": "resumed validate",
-    "resumed": "resumed"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jsonresume-theme-elegant": "^1.16.1",
-    "resumed": "^4.0.0"
-  },
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
