@@ -1,2 +1,4 @@
 node_modules
 build/index.html
+rendercv_output
+.venv
