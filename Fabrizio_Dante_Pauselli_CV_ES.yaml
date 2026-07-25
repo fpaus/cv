@@ -1,0 +1,186 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Fabrizio Dante Pauselli
+  headline: Arquitecto de Software & Lead Developer
+  location: Buenos Aires, AR
+  email: fabriziopauselli@gmail.com
+  phone: "+5491169759207"
+  website: https://fpaus.github.io/cv/
+  social_networks:
+    - network: LinkedIn
+      username: fabrizio-dante-pauselli-917365120
+
+  sections:
+    Perfil:
+      - >
+        Arquitecto de Software y Tech Lead estratégico, especializado en el diseño y la
+        escalabilidad de sistemas distribuidos de alta disponibilidad. Experto en los
+        ecosistemas .NET y Node.js, con una trayectoria comprobada alineando roadmaps
+        técnicos complejos con los objetivos de negocio mientras lidero departamentos de
+        arquitectura e infraestructura cloud. Mentor técnico e instructor, apasionado por
+        el liderazgo transformador, las mejores prácticas de ingeniería (SOLID, Clean
+        Architecture) y la mejora del rendimiento organizacional a través de la innovación
+        constante y la optimización de CI/CD.
+
+    Experiencia:
+      - company: Craftlabs
+        position: Tech Lead
+        location: Buenos Aires, AR
+        start_date: 2026-03
+        end_date: present
+        summary: >
+          Liderando iniciativas estratégicas de alta prioridad y encabezando el desarrollo
+          de sistemas internos críticos y herramientas automatizadas.
+        highlights:
+          - Coordinando un equipo interno multidisciplinario de 4 ingenieros para entregar herramientas internas de alto impacto utilizando Dotnet, Azure y Python.
+          - Impulsando la visión arquitectónica y el roadmap técnico de los sistemas internos, priorizando escalabilidad, seguridad y máximo impacto en el negocio.
+          - Modernizando los flujos de trabajo internos mediante la implementación de frontends robustos en Angular y microservicios de backend de alto rendimiento.
+          - Gestionando el ciclo de vida completo de los proyectos, desde los requerimientos de los stakeholders hasta el despliegue en producción, asegurando la alineación con los objetivos estratégicos de la compañía.
+          - Utilizando herramientas de IA para agilizar y robustecer el proceso de desarrollo mediante spec-driven development (OpenSpec).
+
+      - company: Remitee
+        position: Lead Architect
+        location: Buenos Aires, AR
+        start_date: 2023-02
+        end_date: 2026-02
+        summary: >
+          Responsable del Departamento de Arquitectura e Infraestructura Cloud, dirigiendo
+          dos equipos senior especializados (6 integrantes en total) y definiendo el
+          roadmap tecnológico para la escalabilidad del producto.
+        highlights:
+          - Gestioné y mentoreé dos equipos senior multidisciplinarios de Arquitectos e Ingenieros Cloud, fomentando una cultura de ingeniería de alto rendimiento.
+          - Dirigí la implementación de Terraform para Infraestructura como Código (IaC), supervisando la gobernanza de más de 500 recursos de Azure.
+          - Orquesté migraciones críticas de servicios core a stacks modernos, mejorando significativamente la resiliencia del sistema y la velocidad de entrega.
+          - Definí y goberné estándares de arquitectura a nivel empresarial, garantizando la seguridad y la alta disponibilidad de productos digitales financieros.
+          - Brindé supervisión estratégica a iniciativas de I+D, alineando la adopción de tecnologías emergentes con las tendencias del mercado fintech.
+
+      - company: SoulIT
+        position: Líder Técnico
+        location: Buenos Aires, AR
+        start_date: 2022-02
+        end_date: 2023-02
+        summary: >
+          Gerente estratégico de múltiples equipos de desarrollo, responsable de la visión
+          tecnológica, la implementación de metodologías Ágiles y el desarrollo profesional.
+        highlights:
+          - Lideré y coordiné dos equipos de desarrollo simultáneos (3-4 integrantes cada uno), optimizando la entrega de proyectos mediante buenas prácticas Ágiles.
+          - Dirigí la transición arquitectónica de aplicaciones legacy desde PHP hacia ecosistemas modernos de Node.js (NestJS) y React.
+          - Gestioné el ciclo de vida completo de aplicaciones empresariales con stacks .NET 6/React, asegurando un uptime del 99.9% y optimización del rendimiento.
+          - Mentoreé a ingenieros senior y junior en principios de Clean Code y SOLID, reduciendo la deuda técnica y mejorando la calidad del código.
+
+      - company: Freelance
+        position: Arquitecto de Software & Desarrollador
+        location: Remoto
+        start_date: 2019-01
+        end_date: present
+        summary: Desarrollo Frontend y Backend, consultoría de arquitectura y documentación técnica.
+        highlights:
+          - Brindé consultoría de arquitectura y documentación técnica para proyectos de software complejos.
+          - Diseñé y desplegué desde cero varias Web APIs a medida, priorizando la seguridad y la modularidad.
+          - Migré exitosamente una aplicación web MVC legacy de .NET Framework 4 a .NET Core 5, logrando tiempos de respuesta del servidor un 30% más rápidos.
+          - Desarrollé soluciones complejas de Web Scraping para la extracción de datos gubernamentales en apoyo a proyectos de investigación de nivel doctoral.
+
+      - company: Coderhouse & EducacionIT
+        position: Instructor Técnico / Docente
+        location: Argentina
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - Dicté los cursos 'Programación Backend en JavaScript' (Node.js) y 'Programación en C#' en Coderhouse.
+          - Instruí 'Web API .Net Core' en EducacionIT, cubriendo diseño RESTful, autenticación e integración con bases de datos.
+          - Me desempeñé como Instructor/Mentor en 'Argentina Programa 4.0', enseñando Next.js, Django y SQLite.
+
+      - company: ANSES
+        position: Desarrollador
+        location: Buenos Aires, AR
+        start_date: 2019-07
+        end_date: 2019-09
+        highlights:
+          - Desarrollé nuevos módulos para la aplicación interna de RR.HH., optimizando los procesos internos de gestión de datos.
+
+      - company: Ministerio de Producción
+        position: Desarrollador
+        location: Buenos Aires, AR
+        start_date: 2018-09
+        end_date: 2019-07
+        highlights:
+          - Colaboré en un equipo de gran escala utilizando flujos de trabajo Ágiles para entregar software del sector público.
+
+      - company: Ministerio de Trabajo, Empleo y Seguridad Social
+        position: Analista Tester de Software
+        location: Buenos Aires, AR
+        start_date: 2015-05
+        end_date: 2018-09
+        highlights:
+          - Ejecuté suites de testing manual y automatizado integrales dentro del área de Calidad de Producto.
+
+    Habilidades:
+      - label: Ingeniería Backend
+        details: C#, .NET Core/6+, Node.js, NestJS, Python, Django, Web API, CQRS
+      - label: Frontend & Mobile
+        details: ReactJs, Next.js, React Native, TypeScript, Angular, Blazor, HTML5, SASS
+      - label: Arquitectura & DevOps
+        details: Clean Architecture, SOLID, Terraform, Azure, Cloud Infrastructure, CI/CD, Docker, Aspire
+      - label: IA & Automatización
+        details: AI Agents, Spec-Driven Development (OpenSpec)
+      - label: Bases de Datos
+        details: SQL Server, PostgreSQL, MySQL, SQLite, MongoDB, Optimización de Consultas
+      - label: Liderazgo
+        details: Mentoría de Equipos, Estimación de Proyectos, Comunicación con Stakeholders, Planificación Estratégica
+
+    Educación:
+      - institution: ISTEA
+        area: Técnico Superior en Desarrollo de Software
+        start_date: 2023
+        end_date: 2026
+        location: Argentina
+
+    Certificaciones:
+      - bullet: "Optimización y Rendimiento en SQL Server - EducacionIT (2022)"
+      - bullet: "Arquitectura Avanzada en Node.js - EducacionIT (2021)"
+      - bullet: "React.JS Avanzado - EducacionIT (2021)"
+      - bullet: "Liderazgo y Gestión de Equipos - EducacionIT (2022)"
+
+    Idiomas:
+      - label: Español
+        details: Nativo
+      - label: Inglés
+        details: Avanzado / Profesional
+
+    Voluntariado:
+      - company: Emplear + Empujar
+        position: Mentor Técnico
+        start_date: 2021
+        end_date: 2025
+        highlights:
+          - Participé como mentor voluntario para ayudar a jóvenes en situación de vulnerabilidad a insertarse en el mercado laboral de IT.
+
+locale:
+  language: spanish
+
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+  typography:
+    font_size:
+      body: 10pt
+      name: 30pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.4em
+    line_spacing: 0.45em
+  section_titles:
+    type: moderncv
+
+settings:
+  render_command:
+    dont_generate_typst: false
+    dont_generate_png: true
+    pdf_path: build/Fabrizio_Dante_Pauselli_ES.pdf
+    markdown_path: build/README_ES.md
+    html_path: build/es.html

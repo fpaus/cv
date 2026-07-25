@@ -2,7 +2,7 @@
 cv:
   name: Fabrizio Dante Pauselli
   headline: Software Architect & Lead Developer
-  location: San Clemente del Tuyú, Buenos Aires, AR
+  location: Buenos Aires, AR
   email: fabriziopauselli@gmail.com
   phone: "+5491169759207"
   website: https://fpaus.github.io/cv/
@@ -13,28 +13,45 @@ cv:
   sections:
     summary:
       - >
-        Software Architect specialized in the design and scalability of distributed systems 
-        and high-availability applications. Expert in .NET and Node.js (NestJS) ecosystems, 
-        with a proven track record leading architecture and cloud infrastructure departments. 
-        Specialist in modernizing legacy systems, implementing microservices-based architectures, 
-        and optimizing processes through CI/CD. Technical mentor and teacher with a passion 
-        for best practices (SOLID, Clean Architecture) and constant innovation.
+        Software Architect and Strategic Tech Lead specialized in the design and scalability 
+        of high-availability distributed systems. Expert in .NET and Node.js ecosystems, 
+        with a proven track record of aligning complex technical roadmaps with business 
+        objectives while leading architecture and cloud infrastructure departments. 
+        Technical mentor and instructor with a passion for transformative leadership, 
+        best engineering practices (SOLID, Clean Architecture), and driving organizational 
+        performance through constant innovation and CI/CD optimization.
     
     experience:
+      - company: Craftlabs
+        position: Tech Lead
+        location: Buenos Aires, AR
+        start_date: 2026-03
+        end_date: present
+        summary: >
+          Leading high-priority strategic initiatives and spearheading the development 
+          of mission-critical internal systems and automated toolsets.
+        highlights:
+          - Orchestrating a cross-functional in-house team of 4 engineers to deliver high-impact internal tools utilizing Dotnet, Azure, and Python.
+          - Driving the architectural vision and technical roadmap for internal systems, prioritizing scalability, security, and maximum business impact.
+          - Modernizing internal workflows through the implementation of robust Angular frontends and high-performance backend microservices.
+          - Managing full project lifecycles from stakeholder requirements to production deployment, ensuring alignment with company-wide strategic goals.
+          - Leveraging AI-powered tooling to accelerate and harden the development process through spec-driven development (OpenSpec).
+
       - company: Remitee
         position: Lead Architect
         location: Buenos Aires, AR
         start_date: 2023-02
-        end_date: present
+        end_date: 2026-02
         summary: >
-          Head of the Architecture and Cloud Infrastructure Department, defining the 
-          technological roadmap to improve product scalability and managing R&D initiatives.
+          Head of the Architecture and Cloud Infrastructure Department, directing 
+          two senior specialized teams (6 members total) and defining the 
+          technological roadmap for product scalability.
         highlights:
-          - Led the implementation of Terraform for Infrastructure as Code (IaC) management, overseeing more than 500 resources in Azure.
-          - Led a critical migration of core services to latest technology versions, significantly improving system stability and application performance.
-          - Implemented automated CI/CD pipelines across company services, reducing deployment time and minimizing production errors.
-          - Defined and governed architectural standards, ensuring high availability and security for financial digital products.
-          - Directed R&D initiatives for emerging technologies, maintaining the company's competitive edge in the fintech market.
+          - Managed and mentored two senior cross-functional teams of Architects and Cloud Engineers, fostering a high-performance engineering culture.
+          - Directed the implementation of Terraform for Infrastructure as Code (IaC), overseeing the governance of 500+ Azure resources.
+          - Orchestrated critical migrations of core services to modern stacks, significantly improving system resilience and delivery velocity.
+          - Defined and governed enterprise-wide architectural standards, ensuring security and high availability for financial digital products.
+          - Provided strategic oversight for R&D initiatives, aligning emerging technology adoption with fintech market trends.
       
       - company: SoulIT
         position: Technical Leader
@@ -42,12 +59,13 @@ cv:
         start_date: 2022-02
         end_date: 2023-02
         summary: >
-          Technical manager for developer teams, responsible for technological strategy, 
-          methodology implementation, and support.
+          Strategic manager for multiple developer teams, responsible for technological 
+          vision, Agile methodology implementation, and professional development.
         highlights:
-          - Orchestrated the architectural transition of a core client application from PHP to a modern Node.js (NestJS) and React stack.
-          - Managed the lifecycle and maintenance of enterprise applications using .NET 6 and ReactJs, ensuring 99.9% uptime.
-          - Mentored junior and senior developers, fostering a culture of Clean Code, SOLID principles, and Agile methodologies.
+          - Led and orchestrated two concurrent development teams (3-4 members each), optimizing project delivery through Agile best practices.
+          - Directed the architectural transition of legacy applications from PHP to modern Node.js (NestJS) and React ecosystems.
+          - Managed the full application lifecycle for enterprise .NET 6/React stacks, ensuring 99.9% uptime and performance optimization.
+          - Mentored senior and junior engineers in Clean Code and SOLID principles, reducing technical debt and improving code quality.
 
       - company: Freelance
         position: Software Architect & Developer
@@ -101,7 +119,9 @@ cv:
       - label: Frontend & Mobile
         details: ReactJs, Next.js, React Native, TypeScript, Angular, Blazor, HTML5, SASS
       - label: Architecture & DevOps
-        details: Clean Architecture, SOLID, Terraform, Azure, Cloud Infrastructure, CI/CD, Docker
+        details: Clean Architecture, SOLID, Terraform, Azure, Cloud Infrastructure, CI/CD, Docker, Aspire
+      - label: AI & Automation
+        details: AI Agents, Spec-Driven Development (OpenSpec)
       - label: Databases
         details: SQL Server, PostgreSQL, MySQL, SQLite, MongoDB, Query Optimization
       - label: Leadership
@@ -111,7 +131,7 @@ cv:
       - institution: ISTEA
         area: Higher Technician in Software Development
         start_date: 2023
-        end_date: present
+        end_date: 2026
         location: Argentina
 
     certificates:
