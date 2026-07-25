@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": ".venv/bin/rendercv render Fabrizio_Dante_Pauselli_CV.yaml && .venv/bin/rendercv render Fabrizio_Dante_Pauselli_CV_ES.yaml && node scripts/inject-pdf-link.mjs",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
