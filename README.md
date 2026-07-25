@@ -2,33 +2,53 @@
 
 - Phone: +54 9 11 6975 9207
 - Email: [fabriziopauselli@gmail.com](mailto:fabriziopauselli@gmail.com)
-- Location: San Clemente del Tuyú, Buenos Aires, AR
+- Location: Buenos Aires, AR
 - Website: [fpaus.github.iocv](https://fpaus.github.io/cv/)
 - LinkedIn: [fabrizio-dante-pauselli-917365120](https://linkedin.com/in/fabrizio-dante-pauselli-917365120)
 
 
 # Summary
-Software Architect specialized in the design and scalability of distributed systems  and high-availability applications. Expert in .NET and Node.js (NestJS) ecosystems,  with a proven track record leading architecture and cloud infrastructure departments.  Specialist in modernizing legacy systems, implementing microservices-based architectures,  and optimizing processes through CI/CD. Technical mentor and teacher with a passion  for best practices (SOLID, Clean Architecture) and constant innovation.
+Software Architect and Strategic Tech Lead specialized in the design and scalability  of high-availability distributed systems. Expert in .NET and Node.js ecosystems,  with a proven track record of aligning complex technical roadmaps with business  objectives while leading architecture and cloud infrastructure departments.  Technical mentor and instructor with a passion for transformative leadership,  best engineering practices (SOLID, Clean Architecture), and driving organizational  performance through constant innovation and CI/CD optimization.
 
 
 # Experience
+## **Tech Lead**, Craftlabs -- Buenos Aires, AR
+
+Mar 2026 – present
+
+Leading high-priority strategic initiatives and spearheading the development  of mission-critical internal systems and automated toolsets.
+
+
+
+- Orchestrating a cross-functional in-house team of 4 engineers to deliver high-impact internal tools utilizing Dotnet, Azure, and Python.
+
+- Driving the architectural vision and technical roadmap for internal systems, prioritizing scalability, security, and maximum business impact.
+
+- Modernizing internal workflows through the implementation of robust Angular frontends and high-performance backend microservices.
+
+- Managing full project lifecycles from stakeholder requirements to production deployment, ensuring alignment with company-wide strategic goals.
+
+- Leveraging AI-powered tooling to accelerate and harden the development process through spec-driven development (OpenSpec).
+
+
+
 ## **Lead Architect**, Remitee -- Buenos Aires, AR
 
-Feb 2023 – present
+Feb 2023 – Feb 2026
 
-Head of the Architecture and Cloud Infrastructure Department, defining the  technological roadmap to improve product scalability and managing R&D initiatives.
+Head of the Architecture and Cloud Infrastructure Department, directing  two senior specialized teams (6 members total) and defining the  technological roadmap for product scalability.
 
 
 
-- Led the implementation of Terraform for Infrastructure as Code (IaC) management, overseeing more than 500 resources in Azure.
+- Managed and mentored two senior cross-functional teams of Architects and Cloud Engineers, fostering a high-performance engineering culture.
 
-- Led a critical migration of core services to latest technology versions, significantly improving system stability and application performance.
+- Directed the implementation of Terraform for Infrastructure as Code (IaC), overseeing the governance of 500+ Azure resources.
 
-- Implemented automated CI/CD pipelines across company services, reducing deployment time and minimizing production errors.
+- Orchestrated critical migrations of core services to modern stacks, significantly improving system resilience and delivery velocity.
 
-- Defined and governed architectural standards, ensuring high availability and security for financial digital products.
+- Defined and governed enterprise-wide architectural standards, ensuring security and high availability for financial digital products.
 
-- Directed R&D initiatives for emerging technologies, maintaining the company's competitive edge in the fintech market.
+- Provided strategic oversight for R&D initiatives, aligning emerging technology adoption with fintech market trends.
 
 
 
@@ -36,15 +56,17 @@ Head of the Architecture and Cloud Infrastructure Department, defining the  tech
 
 Feb 2022 – Feb 2023
 
-Technical manager for developer teams, responsible for technological strategy,  methodology implementation, and support.
+Strategic manager for multiple developer teams, responsible for technological  vision, Agile methodology implementation, and professional development.
 
 
 
-- Orchestrated the architectural transition of a core client application from PHP to a modern Node.js (NestJS) and React stack.
+- Led and orchestrated two concurrent development teams (3-4 members each), optimizing project delivery through Agile best practices.
 
-- Managed the lifecycle and maintenance of enterprise applications using .NET 6 and ReactJs, ensuring 99.9% uptime.
+- Directed the architectural transition of legacy applications from PHP to modern Node.js (NestJS) and React ecosystems.
 
-- Mentored junior and senior developers, fostering a culture of Clean Code, SOLID principles, and Agile methodologies.
+- Managed the full application lifecycle for enterprise .NET 6/React stacks, ensuring 99.9% uptime and performance optimization.
+
+- Mentored senior and junior engineers in Clean Code and SOLID principles, reducing technical debt and improving code quality.
 
 
 
@@ -105,14 +127,17 @@ May 2015 – Sept 2018
 
 **Frontend & Mobile:** ReactJs, Next.js, React Native, TypeScript, Angular, Blazor, HTML5, SASS
 
-**Architecture & DevOps:** Clean Architecture, SOLID, Terraform, Azure, Cloud Infrastructure, CI/CD, Docker
+**Architecture & DevOps:** Clean Architecture, SOLID, Terraform, Azure, Cloud Infrastructure, CI/CD, Docker, Aspire
+
+**AI & Automation:** AI Agents, Spec-Driven Development (OpenSpec)
 
 **Databases:** SQL Server, PostgreSQL, MySQL, SQLite, MongoDB, Query Optimization
 
 **Leadership:** Team Mentoring, Project Estimation, Stakeholder Communication, Strategic Planning
 
 # Education
-## **ISTEA**,  in Higher Technician in Software Development -- Argentina2023 – present
+## **ISTEA**, Higher Technician in Software Development -- Argentina
+2023 – 2026
 
 
 
