@@ -1,0 +1,419 @@
+# Single source of truth for every CV variant and language.
+# scripts/build_cvs.py turns this file into RenderCV inputs under generated/.
+#
+# Conventions:
+#   - Any text value can be a plain string (same in every language)
+#     or a mapping {en: ..., es: ...}.
+#   - `in: [variant, ...]` limits an item to those variants. No `in` means all variants.
+#   - `rank: {variant: n}` moves an item up for that variant (lower first).
+#     Unranked items keep their file order after the ranked ones.
+
+person:
+  name: Fabrizio Dante Pauselli
+  location: Buenos Aires, Argentina
+  email: fabriziopauselli@gmail.com
+  phone: "+5491169759207"
+  website: https://fpaus.github.io/cv/
+  social_networks:
+    - network: LinkedIn
+      username: fabrizio-dante-pauselli-917365120
+    - network: GitHub
+      username: fpaus
+
+variants:
+  generic:
+    file_suffix: ""
+    headline:
+      en: Software Architect · Tech Lead · .NET / Azure · AI Engineering
+      es: Arquitecto de Software · Tech Lead · .NET / Azure · AI Engineering
+    sections: [summary, skills, experience, projects, teaching, education, languages]
+    summary:
+      en: >
+        Software Architect and Tech Lead with 10+ years in software engineering. I built and headed
+        the Architecture & Cloud Infrastructure department of a remittance fintech (6 senior
+        engineers, 500+ Azure resources under Terraform). Today I lead two teams (7 people) on a
+        .NET / Angular / Azure platform built with .NET Aspire, and I designed the AI-assisted way
+        they work: agent pipelines for code review and QA, an autonomous bug sweep, a LiteLLM
+        gateway, MCP servers and Claude Code skills, all held to the line by architecture tests
+        and spec-driven development.
+      es: >
+        Arquitecto de software y Tech Lead con más de 10 años en ingeniería de software. Armé y
+        dirigí el departamento de Arquitectura e Infraestructura Cloud de una fintech de remesas
+        (6 ingenieros senior, más de 500 recursos de Azure bajo Terraform). Hoy lidero dos equipos
+        (7 personas) sobre una plataforma .NET / Angular / Azure con .NET Aspire, y diseñé su forma
+        de trabajo asistida por IA: agentes para revisión y QA, barrida de bugs autónoma, gateway
+        LiteLLM, servidores MCP y skills de Claude Code, sostenidos por tests de arquitectura y
+        desarrollo guiado por especificaciones.
+
+  staff:
+    file_suffix: _Staff_DotNet_Azure
+    headline:
+      en: Staff Software Engineer · Software Architect · .NET / Azure
+      es: Staff Software Engineer · Arquitecto de Software · .NET / Azure
+    sections: [summary, skills, experience, projects, education, languages, teaching]
+    summary:
+      en: >
+        Staff-level backend engineer and software architect with 10+ years in software
+        engineering. I design and build C#/.NET systems on Azure with ASP.NET Core, Entity
+        Framework Core, SQL Server, Azure Functions and .NET Aspire. As Lead Architect at a
+        remittance fintech I led the project that put 500+ Azure resources under Terraform and the
+        definition of architecture standards for every team. Today I own the technical bar of a .NET / Angular platform:
+        I designed its authorization and audit mechanisms, built its quality system (architecture
+        tests, mutation testing, 10,000+ automated tests) and the AI-assisted review process that
+        gates every pull request.
+      es: >
+        Ingeniero backend de nivel Staff y arquitecto de software con más de 10 años en ingeniería
+        de software. Diseño y construyo sistemas C#/.NET en Azure con ASP.NET Core, Entity
+        Framework Core, SQL Server, Azure Functions y .NET Aspire. Como Lead Architect en una
+        fintech de remesas lideré el proyecto que puso más de 500 recursos de Azure bajo Terraform
+        y la definición de los estándares de arquitectura de todos los equipos. Hoy soy responsable del nivel técnico de
+        una plataforma .NET / Angular: diseñé sus mecanismos de autorización y auditoría, construí
+        su sistema de calidad (tests de arquitectura, mutation testing, más de 10.000 tests
+        automatizados) y el proceso de revisión asistido por IA que valida cada pull request.
+
+  ai:
+    file_suffix: _AI_Engineer
+    headline:
+      en: AI Engineer · LLM Platforms & Agentic Developer Tooling · .NET / Azure
+      es: AI Engineer · Plataformas LLM y herramientas agénticas · .NET / Azure
+    sections: [summary, skills, experience, projects, education, languages, teaching]
+    summary:
+      en: >
+        Software architect turned AI engineer. I build the agentic development systems my teams run
+        every day: an AI code review process with 5 parallel agents, an autonomous bug sweep that
+        delivered 65 PRs in one run, an AI-driven regression QA process, a production-grade LiteLLM
+        gateway with spend tracking, MCP servers and a shared context and memory layer across Claude
+        Code, opencode, Antigravity and Ollama agents. My 10+ years of .NET/Azure backend and
+        architecture work mean AI features ship with tests, guardrails and cost visibility.
+      es: >
+        Arquitecto de software que hoy trabaja como AI engineer. Construyo los sistemas de
+        desarrollo agéntico que mis equipos usan a diario: un proceso de revisión de código con
+        5 agentes en paralelo, una barrida de bugs autónoma que entregó 65 PRs en una corrida, un
+        proceso de QA de regresión con IA, un gateway LiteLLM productivo con control de gasto,
+        servidores MCP y una capa compartida de contexto y memoria entre agentes (Claude Code,
+        opencode, Antigravity y Ollama). Mis más de 10 años en backend y arquitectura .NET/Azure
+        hacen que las funcionalidades de IA salgan con tests, guardrails y visibilidad de costos.
+
+  em:
+    file_suffix: _Engineering_Manager
+    headline:
+      en: Engineering Manager · Tech Lead · .NET / Azure
+      es: Engineering Manager · Tech Lead · .NET / Azure
+    sections: [summary, experience, skills, teaching, volunteering, education, languages]
+    summary:
+      en: >
+        Engineering leader with 10+ years in software engineering and 4+ years building and leading
+        teams. I built and headed the Architecture & Cloud Infrastructure department of a remittance
+        fintech (6 senior engineers, two teams, three years). Today I lead two teams (7 people) that
+        ship in 2-week iterations: I run performance evaluations, onboarding, capacity planning and
+        stakeholder demos, and I set the engineering standards with an AI-assisted review and QA
+        process I designed. I also teach backend courses and mentor people entering the IT industry.
+      es: >
+        Líder de ingeniería con más de 10 años en ingeniería de software y más de 4 años armando y
+        liderando equipos. Armé y dirigí el departamento de Arquitectura e Infraestructura Cloud de
+        una fintech de remesas (6 ingenieros senior, dos equipos, tres años). Hoy lidero dos equipos
+        (7 personas) que entregan en iteraciones de 2 semanas: llevo las evaluaciones de desempeño,
+        el onboarding, la planificación por capacidad y las demos a stakeholders, y defino los
+        estándares de ingeniería con un proceso de revisión y QA asistido por IA que diseñé. También
+        dicto cursos de backend y acompaño a personas que ingresan a la industria IT.
+
+  sa:
+    file_suffix: _Solutions_AI_Architect
+    headline:
+      en: Solutions Architect · Cloud & AI · Azure / .NET
+      es: Arquitecto de Soluciones · Cloud e IA · Azure / .NET
+    sections: [summary, skills, experience, projects, teaching, education, languages]
+    summary:
+      en: >
+        Solutions architect with 10+ years in software engineering, specialized in Azure and .NET.
+        I turn business requirements into cloud architectures that stay governed as code: I led the
+        project that put 500+ Azure resources under Terraform at a remittance fintech, run architecture-as-code with
+        LikeC4 and enforce it with automated architecture tests. I design AI solutions on solid
+        ground: a production-grade LLM gateway (LiteLLM), MCP integrations and agentic workflows
+        with guardrails. As a teacher and mentor, I make technical decisions clear to engineers
+        and stakeholders alike.
+      es: >
+        Arquitecto de soluciones con más de 10 años en ingeniería de software, especializado en
+        Azure y .NET. Convierto requerimientos de negocio en arquitecturas cloud que se mantienen
+        gobernadas como código: lideré el proyecto que puso más de 500 recursos de Azure bajo Terraform en una
+        fintech de remesas, trabajo con arquitectura como código (LikeC4) y la hago cumplir con tests de
+        arquitectura automatizados. Diseño soluciones de IA sobre bases sólidas: un gateway de LLMs
+        productivo (LiteLLM), integraciones MCP y flujos agénticos con guardrails. Como docente y
+        mentor, hago claras las decisiones técnicas tanto para ingenieros como para stakeholders.
+
+section_titles:
+  summary: {en: Summary, es: Perfil}
+  skills: {en: Skills, es: Habilidades}
+  experience: {en: Experience, es: Experiencia}
+  projects: {en: Selected Projects, es: Proyectos destacados}
+  teaching: {en: Teaching & Mentoring, es: Docencia y mentoría}
+  education: {en: Education, es: Educación}
+  languages: {en: Languages, es: Idiomas}
+  volunteering: {en: Volunteering, es: Voluntariado}
+
+skills:
+  - label: {en: Backend, es: Backend}
+    rank: {staff: 1, generic: 1}
+    details:
+      en: C#, .NET 8/10, ASP.NET Core Web API, Entity Framework Core, .NET Aspire, Hangfire, Native AOT, Avalonia, Node.js (NestJS), Python, Go
+      es: C#, .NET 8/10, ASP.NET Core Web API, Entity Framework Core, .NET Aspire, Hangfire, Native AOT, Avalonia, Node.js (NestJS), Python, Go
+  - label: {en: AI Engineering, es: Ingeniería de IA}
+    rank: {ai: 1}
+    details:
+      en: LLM gateway and spend tracking (LiteLLM), Model Context Protocol (MCP), AI coding agents (Claude Code, opencode, Antigravity), multi-agent workflows and skills, agent context and memory, AI-assisted code review and QA, local LLMs (Ollama), on-device speech (sherpa-onnx), AI guardrails
+      es: Gateway de LLMs y control de gasto (LiteLLM), Model Context Protocol (MCP), agentes de código (Claude Code, opencode, Antigravity), flujos multiagente y skills, contexto y memoria de agentes, revisión de código y QA asistidos por IA, LLMs locales (Ollama), reconocimiento de voz local (sherpa-onnx), guardrails de IA
+  - label: {en: Cloud & DevOps, es: Cloud y DevOps}
+    rank: {sa: 1}
+    details:
+      en: Azure (App Service, Functions, SQL, Key Vault, Entra ID, managed identities, private endpoints, Application Insights), Terraform, GitHub Actions, Docker, OpenTelemetry
+      es: Azure (App Service, Functions, SQL, Key Vault, Entra ID, identidades administradas, private endpoints, Application Insights), Terraform, GitHub Actions, Docker, OpenTelemetry
+  - label: {en: Architecture & Quality, es: Arquitectura y calidad}
+    rank: {sa: 2, staff: 2}
+    details:
+      en: Clean Architecture, SOLID, CQRS, ADRs, architecture tests, ATDD, spec-driven development (OpenSpec), architecture-as-code (LikeC4), Testcontainers, Playwright, mutation testing (Stryker), stacked PRs, code review
+      es: Clean Architecture, SOLID, CQRS, ADRs, tests de arquitectura, ATDD, desarrollo guiado por especificaciones (OpenSpec), arquitectura como código (LikeC4), Testcontainers, Playwright, mutation testing (Stryker), PRs apilados, code review
+  - label: {en: Frontend, es: Frontend}
+    in: [generic, staff, ai, sa]
+    details:
+      en: Angular, TypeScript, React, Next.js
+      es: Angular, TypeScript, React, Next.js
+  - label: {en: Data, es: Datos}
+    details:
+      en: SQL Server, PostgreSQL, SQLite, query optimization
+      es: SQL Server, PostgreSQL, SQLite, optimización de consultas
+  - label: {en: Leadership, es: Liderazgo}
+    rank: {em: 1}
+    details:
+      en: People management, performance evaluations, onboarding, mentoring, iteration and capacity planning, technical roadmaps, stakeholder demos
+      es: Gestión de personas, evaluaciones de desempeño, onboarding, mentoría, planificación de iteraciones y capacidad, roadmaps técnicos, demos a stakeholders
+
+experience:
+  - company: Craft-Labs
+    position: {en: Architect / Technical Lead, es: Arquitecto / Líder Técnico}
+    location: Buenos Aires, AR
+    start_date: 2026-03
+    end_date: present
+    highlights:
+      - id: teams
+        rank: {em: 1}
+        en: "Lead two engineering teams (7 people) that ship in 2-week iterations: I run capacity planning, iteration demos to stakeholders and the technical roadmap."
+        es: "Lidero dos equipos de ingeniería (7 personas) que entregan en iteraciones de 2 semanas: planificación por capacidad, demos a stakeholders y roadmap técnico."
+      - id: platform
+        rank: {em: 2}
+        en: Own the architecture and delivery of the company's operations platform (SOWs, allocations, invoicing, performance feedback, compensation; ~20 screens, 8 roles) on .NET, Angular, Azure Functions and SQL Server, orchestrated with .NET Aspire.
+        es: Responsable de la arquitectura y la entrega de la plataforma de operaciones de la empresa (SOWs, asignaciones, facturación, feedback, compensaciones; ~20 pantallas, 8 roles) en .NET, Angular, Azure Functions y SQL Server con .NET Aspire.
+      - id: review
+        rank: {em: 4, ai: 2}
+        en: "Designed the AI-assisted code review process the teams run on every pull request: 5 agents in parallel (checks, standards, spec, tests, security) that handle stacked chains of up to 13 PRs and enforce the coding and architecture standards I define."
+        es: "Diseñé el proceso de revisión asistido por IA que los equipos aplican a cada pull request: 5 agentes en paralelo (checks, estándares, spec, tests, seguridad) que cubren cadenas de hasta 13 PRs apilados y hacen valer los estándares que defino."
+      - id: bugsweep
+        in: [generic, ai, em]
+        rank: {ai: 1}
+        en: "Created a repeatable autonomous bug-sweep process with parallel coding agents (12 hunt rounds, ~9 fix agents per run). First run: 65 pull requests and 74 bugs traced to the change that introduced them, in 7.5 unattended hours."
+        es: "Creé un proceso repetible de barrida de bugs autónoma con agentes en paralelo (12 rondas, ~9 agentes de fix por corrida). Primera corrida: 65 pull requests y 74 bugs rastreados hasta el cambio que los introdujo, en 7,5 horas sin intervención."
+      - id: qa
+        in: [generic, ai, em]
+        rank: {ai: 3}
+        en: "Built the AI-assisted regression QA process (plan, run, triage): agents derive the test cases from merged PRs, run them in Playwright with video evidence and file the bugs. First pass: 56 cases from 90 PRs, 10 bugs reported."
+        es: "Construí el proceso de QA de regresión asistido por IA (plan, ejecución, triage): los agentes derivan los casos de los PRs mergeados, los corren en Playwright con video y reportan los bugs. Primera pasada: 56 casos de 90 PRs, 10 bugs."
+      - id: quality
+        rank: {staff: 1}
+        en: "Built the platform's quality system: ratcheted architecture tests, mutation testing (Stryker), analyzer and lint ratchets, and suites of ~3,000 unit, 1,600 integration (Testcontainers) and 4,400 UI tests. Cut CI spend with on-demand checks and local integration runs from 22 to 3 minutes."
+        es: "Construí el sistema de calidad de la plataforma: tests de arquitectura, mutation testing (Stryker), ratchets de analizadores y lint, y suites de ~3.000 tests unitarios, 1.600 de integración (Testcontainers) y 4.400 de UI. Reduje el gasto de CI con checks bajo demanda y la integración local de 22 a 3 min."
+      - id: atdd
+        in: [staff, ai, sa]
+        rank: {ai: 4, staff: 2}
+        en: Created atdd-kit, a guardrail system that keeps AI-generated code within the architecture. It generates specs with OpenSpec, enforces 160+ architecture rules as automated tests and blocks non-compliant changes in GitHub Actions CI.
+        es: Creé atdd-kit, un sistema de guardrails que mantiene el código generado por IA dentro de la arquitectura. Genera specs con OpenSpec, valida más de 160 reglas de arquitectura como tests automatizados y bloquea en el CI de GitHub Actions los cambios que no las cumplen.
+      - id: design
+        in: [staff, sa]
+        rank: {sa: 2, staff: 3}
+        en: "Designed the platform's core mechanisms and documented them as ADRs (90+ in the repo): the authorization model (scoped read/write data, per-role field mapping), the audit trail (temporal tables, EF Core interceptor) and the Engagement/Company data restructuring."
+        es: "Diseñé los mecanismos centrales de la plataforma y los documenté como ADRs (más de 90 en el repo): el modelo de autorización (datos de lectura/escritura con alcance, mapeo de campos por rol), la auditoría (tablas temporales, interceptor de EF Core) y la reestructuración de datos Engagement/Company."
+      - id: security
+        in: [generic, staff, sa]
+        rank: {sa: 3}
+        en: "Hardened the platform's Azure footprint end to end: identity-based access between services, closed network exposure and restricted SQL Server access."
+        es: "Reforcé la seguridad de la plataforma en Azure de punta a punta: acceso por identidad entre servicios, red cerrada y SQL Server restringido."
+      - id: litellm
+        in: [generic, ai, sa, staff]
+        rank: {ai: 5, sa: 1}
+        en: "Designed and built the company-wide LLM gateway (LiteLLM) for engineers and for products with agentic capabilities, local and hosted models, as a production-grade Azure deployment with spend tracking per team and model: Terraform (24 resources), App Service, private PostgreSQL, Key Vault, Entra ID, Application Insights, budget alerts."
+        es: "Diseñé y construí el gateway de LLMs de toda la empresa (LiteLLM), para ingenieros y para productos con capacidades agénticas, con modelos locales y de suscripción, como despliegue productivo en Azure con gasto por equipo y modelo: Terraform (24 recursos), App Service, PostgreSQL privado, Key Vault, Entra ID, Application Insights, alertas de presupuesto."
+      - id: skills
+        in: [generic, ai, em]
+        rank: {ai: 6}
+        en: "Built the teams' agentic development toolkit: 30+ Claude Code skills for the whole cycle (spec, change, review, QA, release, daily reports) plus a shared context and memory layer across AI coding agents, so every engineer works the same way with AI."
+        es: "Construí el kit de desarrollo agéntico de los equipos: más de 30 skills de Claude Code para todo el ciclo (spec, cambio, revisión, QA, release, reportes) y una capa compartida de contexto y memoria entre agentes, para que todos trabajen igual con IA."
+      - id: likec4
+        in: [sa]
+        rank: {sa: 4}
+        en: Established architecture-as-code with LikeC4, a Claude Code bootstrap that scaffolds new architecture repositories in minutes, and 7 multi-language .NET Aspire starters (C#, TypeScript, Python, Go) that make new services consistent from day one.
+        es: Instalé arquitectura como código con LikeC4, un bootstrap con Claude Code que genera repositorios de arquitectura en minutos y 7 starters multilenguaje de .NET Aspire (C#, TypeScript, Python, Go) que hacen consistentes los servicios nuevos desde el primer día.
+      - id: people
+        in: [generic, em]
+        rank: {em: 3}
+        en: "Own people development: weekly performance evaluations for all 7 team members, the onboarding plan that brought 5 hires up to speed in 2026, and the company-wide performance feedback cycle as product owner of that module."
+        es: "Responsable del desarrollo de las personas: evaluaciones semanales a las 7, el plan de onboarding con el que incorporé 5 ingresos en 2026 y el ciclo de feedback de desempeño de toda la empresa como dueño del módulo."
+
+  - company: Remitee
+    position: {en: Lead Architect, es: Lead Architect}
+    location: Buenos Aires, AR
+    start_date: 2023-02
+    end_date: 2026-02
+    highlights:
+      - en: "Built and headed the Architecture & Cloud Infrastructure department of a cross-border remittance fintech: hired its 6 senior architects and cloud engineers (2 teams), ran their performance reviews and career development, and helped other teams hire."
+        es: "Armé y dirigí el departamento de Arquitectura e Infraestructura Cloud de una fintech de remesas internacionales: contraté a sus 6 arquitectos e ingenieros cloud senior (dos equipos), llevé sus evaluaciones de desempeño y desarrollo de carrera, y ayudé a contratar para otros equipos."
+      - rank: {staff: 1, sa: 1}
+        en: Led the project that brought 500+ Azure resources under Terraform, cutting provisioning from hours or days of manual work to under an hour.
+        es: Lideré el proyecto que puso más de 500 recursos de Azure bajo Terraform y bajó el aprovisionamiento de horas o días de trabajo manual a menos de una hora.
+      - en: Led the split of a ~50-microservice monorepo into one repository per service and their migration from .NET Core 2 to .NET 6 and 8.
+        es: Lideré la separación de un monorepo de ~50 microservicios en un repositorio por servicio y su migración de .NET Core 2 a .NET 6 y 8.
+      - in: [sa, em, ai]
+        en: Led the definition of company-wide architecture standards for security and high availability.
+        es: Lideré la definición de los estándares de arquitectura de la compañía para seguridad y alta disponibilidad.
+      - in: [em, sa]
+        en: Led the technology roadmap for product scalability together with business stakeholders.
+        es: Lideré el roadmap tecnológico para la escalabilidad del producto junto con los stakeholders de negocio.
+
+  - company: SoulIT
+    position: {en: Technical Leader, es: Líder Técnico}
+    location: Buenos Aires, AR
+    start_date: 2022-02
+    end_date: 2023-02
+    highlights:
+      - en: Led two concurrent delivery teams of 3–4 engineers each with Agile practices.
+        es: Lideré dos equipos de desarrollo en simultáneo (3 a 4 ingenieros cada uno) con prácticas ágiles.
+      - in: [staff, sa, ai]
+        en: Led the migration of legacy PHP applications to Node.js (NestJS) and React.
+        es: Lideré la migración de aplicaciones legacy en PHP a Node.js (NestJS) y React.
+      - in: [sa]
+        en: Owned the lifecycle of enterprise .NET 6 / React applications, from design to production support.
+        es: Fui responsable del ciclo de vida de aplicaciones empresariales .NET 6 / React, desde el diseño hasta el soporte en producción.
+      - in: [em]
+        en: Mentored senior and junior engineers in Clean Code and SOLID principles.
+        es: Formé a ingenieros senior y junior en Clean Code y principios SOLID.
+
+  - company: {en: Independent Consulting, es: Consultoría independiente}
+    position: {en: Software Architect (part-time), es: Arquitecto de Software (part-time)}
+    location: {en: Remote, es: Remoto}
+    start_date: 2019-01
+    end_date: present
+    highlights:
+      - rank: {sa: 1}
+        en: "Architected a collections hub for a wholesale bank (2026) from client requirements to an approved design: LikeC4 model with 21 views, 7 ADRs and 19 recorded decisions on Spring, Kafka with outbox/inbox, Keycloak and OpenShift, sized for 5,000 TPS."
+        es: "Diseñé la arquitectura de un hub de cobranzas para un banco mayorista (2026), de los requerimientos al diseño aprobado: modelo LikeC4 de 21 vistas, 7 ADRs y 19 decisiones sobre Spring, Kafka con outbox/inbox, Keycloak y OpenShift, para 5.000 TPS."
+      - in: [staff, sa, ai, em]
+        en: Migrated a legacy ASP.NET MVC application from .NET Framework 4 to .NET Core 5, cutting server response times by 30%.
+        es: Migré una aplicación ASP.NET MVC legacy de .NET Framework 4 a .NET Core 5 y reduje un 30% el tiempo de respuesta del servidor.
+      - in: [em]
+        en: Designed and built custom ASP.NET Core Web APIs, and delivered architecture consulting and technical documentation.
+        es: Diseñé y construí Web APIs a medida con ASP.NET Core, y brindé consultoría de arquitectura y documentación técnica.
+      - in: [ai]
+        en: Built web scraping pipelines that extract government data for PhD research projects.
+        es: Construí pipelines de web scraping que extraen datos públicos del Estado para proyectos de investigación doctoral.
+
+  - company: {en: "Public sector: ANSES, Ministries of Production and Labor", es: "Sector público: ANSES, Ministerios de Producción y Trabajo"}
+    position: {en: Software Developer · QA Analyst, es: Desarrollador · Analista QA}
+    location: Buenos Aires, AR
+    start_date: 2015-05
+    end_date: 2019-09
+    highlights:
+      - en: Development in Agile teams (2018–2019) after three years of manual and automated testing (2015–2018).
+        es: Desarrollo en equipos Ágiles (2018–2019) tras tres años de testing manual y automatizado (2015–2018).
+
+projects:
+  - label: {en: Unified Workbench, es: Unified Workbench}
+    in: [generic, staff, ai, em]
+    rank: {staff: 1, ai: 2}
+    details:
+      en: "Agent-built product: a .NET / Avalonia desktop app plus MCP hosts (~37 tools) for daily reports, GitHub boards and effort analysis. I designed it (24 ADRs, LikeC4 model, architecture tests) and had parallel Claude Code subagents implement its ~380-issue backlog with token cost tracked per ticket; 960+ tests."
+      es: "Producto construido con agentes: app de escritorio .NET / Avalonia más hosts MCP (~37 tools) para reportes diarios, tableros de GitHub y análisis de esfuerzo. Lo diseñé (24 ADRs, modelo LikeC4, tests de arquitectura) y su backlog de ~380 issues lo implementaron subagentes de Claude Code en paralelo, con costo en tokens por ticket; más de 960 tests."
+  - label: {en: Open source, es: Open source}
+    in: [generic, staff, ai]
+    details:
+      en: "pnpm/pnpm#15724 (merged): fix for Windows `.cmd` shims broken by `%` in paths, in Rust and TypeScript with tests. microsoft/aspire#20652: SQL `WithRepl` failure on CRLF scripts."
+      es: "pnpm/pnpm#15724 (mergeado): fix de los shims `.cmd` de Windows rotos por un `%` en la ruta, en Rust y TypeScript con tests. microsoft/aspire#20652: falla de `WithRepl` de SQL con scripts CRLF."
+  - label: {en: MCP stdio benchmark, es: Benchmark MCP stdio}
+    in: [ai]
+    details:
+      en: Compared Go and C# Native AOT implementations of an MCP server over stdio transport.
+      es: Comparé implementaciones en Go y en C# Native AOT de un servidor MCP sobre transporte stdio.
+  - label: {en: Meeting transcriber, es: Transcriptor de reuniones}
+    in: [ai]
+    details:
+      en: C# app that records Microsoft Teams meetings and transcribes them on-device with speaker diarization (sherpa-onnx).
+      es: App en C# que graba reuniones de Microsoft Teams y las transcribe en el mismo equipo, identificando a cada hablante (sherpa-onnx).
+
+teaching:
+  - company: Coderhouse & EducacionIT
+    position: {en: Technical Instructor, es: Docente}
+    location: Buenos Aires, AR
+    start_date: 2023-01
+    end_date: present
+    highlights:
+      - en: Created and teach the "Web APIs with .NET" course at EducacionIT, 9 live-coded classes (18 h) that take students from a first endpoint to Clean Architecture, JWT, Docker Compose and .NET Aspire. The material is versioned code with Testcontainers integration tests.
+        es: 'Creé y dicto el curso "Web APIs con .NET" en EducacionIT: 9 clases en vivo (18 h) de un primer endpoint a Clean Architecture, JWT, Docker Compose y .NET Aspire, con material versionado y tests de integración (Testcontainers).'
+      - in: [generic, ai, sa, em]
+        en: "~16 cohorts and ~260 students so far: EducacionIT (~10 cohorts), Coderhouse backend courses in Node.js and C# (~5 cohorts of 30) and the national Argentina Programa 4.0 (50)."
+        es: "Unas 16 cohortes y ~260 alumnos: EducacionIT (~10 cohortes), cursos de backend Node.js y C# en Coderhouse (~5 cohortes de 30) y el programa nacional Argentina Programa 4.0 (50)."
+      - in: [ai]
+        en: Volunteer technical mentor for at-risk youth entering IT at Emplear + Empujar (2021–2025).
+        es: Mentor técnico voluntario en Emplear + Empujar, con jóvenes en situación de vulnerabilidad que ingresan a IT (2021–2025).
+
+education:
+  - institution: ISTEA
+    area:
+      en: Técnico Superior en Desarrollo de Software (3-year higher technical degree, completed 2026)
+      es: Técnico Superior en Desarrollo de Software (3 años, título emitido en 2026)
+    start_date: 2023
+    end_date: 2026
+    location: Buenos Aires, AR
+
+languages:
+  - label: {en: Spanish, es: Español}
+    details: {en: Native, es: Nativo}
+  - label: {en: English, es: Inglés}
+    details: {en: Full professional proficiency (C1), es: "Avanzado, uso profesional (C1)"}
+
+volunteering:
+  - company: Emplear + Empujar
+    position: {en: Technical Mentor, es: Mentor Técnico}
+    start_date: 2021
+    end_date: 2025
+    highlights:
+      - en: Mentored at-risk youth entering the IT job market.
+        es: Acompañé como mentor a jóvenes en situación de vulnerabilidad en su ingreso al mercado IT.
+
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1.2cm
+    right_margin: 1.2cm
+  typography:
+    font_size:
+      body: 9.5pt
+      name: 30pt
+      headline: 9.5pt
+      connections: 9.5pt
+      section_titles: 1.4em
+    line_spacing: 0.35em
+  section_titles:
+    type: moderncv
+    space_above: 0.3cm
+    space_below: 0.15cm
+  sections:
+    space_between_regular_entries: 0.8em
+  header:
+    connections:
+      phone_number_format: international
+
+locale:
+  en:
+    language: english
+    month_abbreviations: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  es:
+    language: spanish

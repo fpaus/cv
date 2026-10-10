@@ -1,0 +1,2 @@
+rendercv==2.8
+ruamel.yaml==0.19.1

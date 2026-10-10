@@ -1,5 +1,9 @@
 node_modules
-build
+build/*
+!build/avatar.jpeg
+dist
+generated
 rendercv_output
 .venv
 CLAUDE.md
+PENDIENTES_CV.md
