@@ -37,7 +37,7 @@ python -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python scripts/build_cvs.py --render
 pdfinfo build/Fabrizio_Dante_Pauselli.pdf | grep Pages   # must be 2
-pnpm deploy                                              # publish build/ to gh-pages
+pnpm run deploy                                          # publish build/ to gh-pages
 ```
 
 On Windows (PowerShell), use `.venv\Scripts\pip.exe` and `.venv\Scripts\python.exe` instead of the `.venv/bin/...` paths.
