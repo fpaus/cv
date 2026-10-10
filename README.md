@@ -2,33 +2,54 @@
 
 - Phone: +54 9 11 6975 9207
 - Email: [fabriziopauselli@gmail.com](mailto:fabriziopauselli@gmail.com)
-- Location: Buenos Aires, AR
+- Location: Buenos Aires, Argentina
 - Website: [fpaus.github.iocv](https://fpaus.github.io/cv/)
 - LinkedIn: [fabrizio-dante-pauselli-917365120](https://linkedin.com/in/fabrizio-dante-pauselli-917365120)
+- GitHub: [fpaus](https://github.com/fpaus)
 
 
 # Summary
-Software Architect and Strategic Tech Lead specialized in the design and scalability  of high-availability distributed systems. Expert in .NET and Node.js ecosystems,  with a proven track record of aligning complex technical roadmaps with business  objectives while leading architecture and cloud infrastructure departments.  Technical mentor and instructor with a passion for transformative leadership,  best engineering practices (SOLID, Clean Architecture), and driving organizational  performance through constant innovation and CI/CD optimization.
+Software Architect and Tech Lead with 10+ years in software engineering. I built and headed the Architecture & Cloud Infrastructure department of a remittance fintech (6 senior engineers, 500+ Azure resources under Terraform). Today I lead two teams (7 people) on a .NET / Angular / Azure platform built with .NET Aspire, and I designed the AI-assisted way they work: agent pipelines for code review and QA, an autonomous bug sweep, a LiteLLM gateway, MCP servers and Claude Code skills, all held to the line by architecture tests and spec-driven development.
 
+# Skills
+**Backend:** C#, .NET 8/10, ASP.NET Core Web API, Entity Framework Core, .NET Aspire, Hangfire, Native AOT, Avalonia, Node.js (NestJS), Python, Go
+
+**AI Engineering:** LLM gateway and spend tracking (LiteLLM), Model Context Protocol (MCP), AI coding agents (Claude Code, opencode, Antigravity), multi-agent workflows and skills, agent context and memory, AI-assisted code review and QA, local LLMs (Ollama), on-device speech (sherpa-onnx), AI guardrails
+
+**Cloud & DevOps:** Azure (App Service, Functions, SQL, Key Vault, Entra ID, managed identities, private endpoints, Application Insights), Terraform, GitHub Actions, Docker, OpenTelemetry
+
+**Architecture & Quality:** Clean Architecture, SOLID, CQRS, ADRs, architecture tests, ATDD, spec-driven development (OpenSpec), architecture-as-code (LikeC4), Testcontainers, Playwright, mutation testing (Stryker), stacked PRs, code review
+
+**Frontend:** Angular, TypeScript, React, Next.js
+
+**Data:** SQL Server, PostgreSQL, SQLite, query optimization
+
+**Leadership:** People management, performance evaluations, onboarding, mentoring, iteration and capacity planning, technical roadmaps, stakeholder demos
 
 # Experience
-## **Tech Lead**, Craftlabs -- Buenos Aires, AR
+## **Architect / Technical Lead**, Craft-Labs -- Buenos Aires, AR
 
 Mar 2026 – present
 
-Leading high-priority strategic initiatives and spearheading the development  of mission-critical internal systems and automated toolsets.
+- Lead two engineering teams (7 people) that ship in 2-week iterations: I run capacity planning, iteration demos to stakeholders and the technical roadmap.
 
+- Own the architecture and delivery of the company's operations platform (SOWs, allocations, invoicing, performance feedback, compensation; ~20 screens, 8 roles) on .NET, Angular, Azure Functions and SQL Server, orchestrated with .NET Aspire.
 
+- Designed the AI-assisted code review process the teams run on every pull request: 5 agents in parallel (checks, standards, spec, tests, security) that handle stacked chains of up to 13 PRs and enforce the coding and architecture standards I define.
 
-- Orchestrating a cross-functional in-house team of 4 engineers to deliver high-impact internal tools utilizing Dotnet, Azure, and Python.
+- Created a repeatable autonomous bug-sweep process with parallel coding agents (12 hunt rounds, ~9 fix agents per run). First run: 65 pull requests and 74 bugs traced to the change that introduced them, in 7.5 unattended hours.
 
-- Driving the architectural vision and technical roadmap for internal systems, prioritizing scalability, security, and maximum business impact.
+- Built the AI-assisted regression QA process (plan, run, triage): agents derive the test cases from merged PRs, run them in Playwright with video evidence and file the bugs. First pass: 56 cases from 90 PRs, 10 bugs reported.
 
-- Modernizing internal workflows through the implementation of robust Angular frontends and high-performance backend microservices.
+- Built the platform's quality system: ratcheted architecture tests, mutation testing (Stryker), analyzer and lint ratchets, and suites of ~3,000 unit, 1,600 integration (Testcontainers) and 4,400 UI tests. Cut CI spend with on-demand checks and local integration runs from 22 to 3 minutes.
 
-- Managing full project lifecycles from stakeholder requirements to production deployment, ensuring alignment with company-wide strategic goals.
+- Hardened the platform's Azure footprint end to end: identity-based access between services, closed network exposure and restricted SQL Server access.
 
-- Leveraging AI-powered tooling to accelerate and harden the development process through spec-driven development (OpenSpec).
+- Designed and built the company-wide LLM gateway (LiteLLM) for engineers and for products with agentic capabilities, local and hosted models, as a production-grade Azure deployment with spend tracking per team and model: Terraform (24 resources), App Service, private PostgreSQL, Key Vault, Entra ID, Application Insights, budget alerts.
+
+- Built the teams' agentic development toolkit: 30+ Claude Code skills for the whole cycle (spec, change, review, QA, release, daily reports) plus a shared context and memory layer across AI coding agents, so every engineer works the same way with AI.
+
+- Own people development: weekly performance evaluations for all 7 team members, the onboarding plan that brought 5 hires up to speed in 2026, and the company-wide performance feedback cycle as product owner of that module.
 
 
 
@@ -36,19 +57,11 @@ Leading high-priority strategic initiatives and spearheading the development  of
 
 Feb 2023 – Feb 2026
 
-Head of the Architecture and Cloud Infrastructure Department, directing  two senior specialized teams (6 members total) and defining the  technological roadmap for product scalability.
+- Built and headed the Architecture & Cloud Infrastructure department of a cross-border remittance fintech: hired its 6 senior architects and cloud engineers (2 teams), ran their performance reviews and career development, and helped other teams hire.
 
+- Led the project that brought 500+ Azure resources under Terraform, cutting provisioning from hours or days of manual work to under an hour.
 
-
-- Managed and mentored two senior cross-functional teams of Architects and Cloud Engineers, fostering a high-performance engineering culture.
-
-- Directed the implementation of Terraform for Infrastructure as Code (IaC), overseeing the governance of 500+ Azure resources.
-
-- Orchestrated critical migrations of core services to modern stacks, significantly improving system resilience and delivery velocity.
-
-- Defined and governed enterprise-wide architectural standards, ensuring security and high availability for financial digital products.
-
-- Provided strategic oversight for R&D initiatives, aligning emerging technology adoption with fintech market trends.
+- Led the split of a ~50-microservice monorepo into one repository per service and their migration from .NET Core 2 to .NET 6 and 8.
 
 
 
@@ -56,110 +69,49 @@ Head of the Architecture and Cloud Infrastructure Department, directing  two sen
 
 Feb 2022 – Feb 2023
 
-Strategic manager for multiple developer teams, responsible for technological  vision, Agile methodology implementation, and professional development.
+- Led two concurrent delivery teams of 3–4 engineers each with Agile practices.
 
 
 
-- Led and orchestrated two concurrent development teams (3-4 members each), optimizing project delivery through Agile best practices.
-
-- Directed the architectural transition of legacy applications from PHP to modern Node.js (NestJS) and React ecosystems.
-
-- Managed the full application lifecycle for enterprise .NET 6/React stacks, ensuring 99.9% uptime and performance optimization.
-
-- Mentored senior and junior engineers in Clean Code and SOLID principles, reducing technical debt and improving code quality.
-
-
-
-## **Software Architect & Developer**, Freelance -- Remote
+## **Software Architect (part-time)**, Independent Consulting -- Remote
 
 Jan 2019 – present
 
-Frontend and Backend development, architecture consultancy, and technical documentation.
-
-- Provided architecture consultancy and technical documentation for complex software projects.
-
-- Architected and deployed several custom Web APIs from scratch, prioritizing security and modularity.
-
-- Successfully migrated a legacy MVC web application from .NET Framework 4 to .NET Core 5, resulting in 30% faster server response times.
-
-- Developed complex Web Scraping solutions for government data extraction to support doctoral-level research projects.
+- Architected a collections hub for a wholesale bank (2026) from client requirements to an approved design: LikeC4 model with 21 views, 7 ADRs and 19 recorded decisions on Spring, Kafka with outbox/inbox, Keycloak and OpenShift, sized for 5,000 TPS.
 
 
 
-## **Technical Instructor / Teacher**, Coderhouse & EducacionIT -- Argentina
+## **Software Developer · QA Analyst**, Public sector: ANSES, Ministries of Production and Labor -- Buenos Aires, AR
+
+May 2015 – Sep 2019
+
+- Development in Agile teams (2018–2019) after three years of manual and automated testing (2015–2018).
+
+
+
+# Selected Projects
+**Unified Workbench:** Agent-built product: a .NET / Avalonia desktop app plus MCP hosts (~37 tools) for daily reports, GitHub boards and effort analysis. I designed it (24 ADRs, LikeC4 model, architecture tests) and had parallel Claude Code subagents implement its ~380-issue backlog with token cost tracked per ticket; 960+ tests.
+
+**Open source:** pnpm/pnpm#15724 (merged): fix for Windows `.cmd` shims broken by `%` in paths, in Rust and TypeScript with tests. microsoft/aspire#20652: SQL `WithRepl` failure on CRLF scripts.
+
+# Teaching & Mentoring
+## **Technical Instructor**, Coderhouse & EducacionIT -- Buenos Aires, AR
 
 Jan 2023 – present
 
-- Delivered 'Backend Programming in JavaScript' (Node.js) and 'C# Programming' courses at Coderhouse.
+- Created and teach the "Web APIs with .NET" course at EducacionIT, 9 live-coded classes (18 h) that take students from a first endpoint to Clean Architecture, JWT, Docker Compose and .NET Aspire. The material is versioned code with Testcontainers integration tests.
 
-- Instructed 'Web API .Net Core' at EducacionIT, covering RESTful design, authentication, and database integration.
-
-- Served as an Instructor/Mentor in 'Argentina Programa 4.0', teaching Next.js, Django, and SQLite.
+- ~16 cohorts and ~260 students so far: EducacionIT (~10 cohorts), Coderhouse backend courses in Node.js and C# (~5 cohorts of 30) and the national Argentina Programa 4.0 (50).
 
 
-
-## **Developer**, ANSES -- Buenos Aires, AR
-
-July 2019 – Sept 2019
-
-- Engineered new modules for the internal HR application, optimizing internal data management processes.
-
-
-
-## **Developer**, Ministerio de Producción -- Buenos Aires, AR
-
-Sept 2018 – July 2019
-
-- Collaborated in a large-scale team using Agile workflows to deliver public sector software.
-
-
-
-## **Software Tester Analyst**, Ministerio de Trabajo, Empleo y Seguridad Social -- Buenos Aires, AR
-
-May 2015 – Sept 2018
-
-- Executed comprehensive manual and automated testing suites within the Product Quality area.
-
-
-
-# Skills
-**Backend Engineering:** C#, .NET Core/6+, Node.js, NestJS, Python, Django, Web API, CQRS
-
-**Frontend & Mobile:** ReactJs, Next.js, React Native, TypeScript, Angular, Blazor, HTML5, SASS
-
-**Architecture & DevOps:** Clean Architecture, SOLID, Terraform, Azure, Cloud Infrastructure, CI/CD, Docker, Aspire
-
-**AI & Automation:** AI Agents, Spec-Driven Development (OpenSpec)
-
-**Databases:** SQL Server, PostgreSQL, MySQL, SQLite, MongoDB, Query Optimization
-
-**Leadership:** Team Mentoring, Project Estimation, Stakeholder Communication, Strategic Planning
 
 # Education
-## **ISTEA**, Higher Technician in Software Development -- Argentina
+## **ISTEA**, Técnico Superior en Desarrollo de Software (3-year higher technical degree, completed 2026) -- Buenos Aires, AR
 2023 – 2026
 
 
 
-# Certificates
-- SQL Server Optimization & Performance - EducacionIT (2022)
-
-- Advanced Architecture in Node.js - EducacionIT (2021)
-
-- Advanced React.JS - EducacionIT (2021)
-
-- Leadership & Team Management - EducacionIT (2022)
-
 # Languages
 **Spanish:** Native
 
-**English:** Advanced / Professional
-
-# Volunteer Experience
-## **Technical Mentor**, Emplear + Empujar
-
-2021 – 2025
-
-- Volunteered as a mentor to help youth in vulnerable situations bridge the gap into the IT job market.
-
-
+**English:** Full professional proficiency (C1)
